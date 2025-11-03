@@ -1,5 +1,5 @@
 # Real-Antivirus- 
-      Detecting Real Antivirus is a Python-based desktop application designed to verify the authenticity of antivirus software installed on a computer.
+Detecting Real Antivirus is a Python-based desktop application designed to verify the authenticity of antivirus software installed on a computer.
 Using the Tkinter library for the graphical user interface, the program allows users to easily check whether a detected antivirus application is genuine or potentially fake.
 
 ---------
@@ -50,4 +50,4 @@ Using the Tkinter library for the graphical user interface, the program allows u
 
 🎯 Purpose:
 
-     This project aims to enhance cybersecurity awareness by helping users verify the legitimacy of antivirus software installed on their computers. It’s especially useful for educational demonstrations, cybersecurity training, and personal computer security audits.
+This project aims to enhance cybersecurity awareness by helping users verify the legitimacy of antivirus software installed on their computers. It’s especially useful for educational demonstrations, cybersecurity training, and personal computer security audits.
