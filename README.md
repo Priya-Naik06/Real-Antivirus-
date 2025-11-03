@@ -6,15 +6,15 @@ Using the **Tkinter** library for the graphical user interface, the program allo
 
 **🧩Key Features :** 
 
-🖥️ User-Friendly GUI — Built with Tkinter for easy interaction.
+**🖥️ User-Friendly GUI** — Built with Tkinter for easy interaction.
 
-🔍 Automatic Antivirus Detection — Scans the system for installed antivirus applications.
+**🔍 Automatic Antivirus Detection** — Scans the system for installed antivirus applications.
 
-🔐 Hash Verification — Uses hashlib to generate SHA256 hashes and compare them with known genuine antivirus signatures.
+**🔐 Hash Verification** — Uses hashlib to generate SHA256 hashes and compare them with known genuine antivirus signatures.
 
-📂 System File Access — Employs the os module to navigate directories and locate antivirus executables.
+**📂 System File Access** — Employs the os module to navigate directories and locate antivirus executables.
 
-⚠️ Fake Antivirus Alert — Notifies the user if an unverified or suspicious antivirus file is found.
+**⚠️ Fake Antivirus Alert** — Notifies the user if an unverified or suspicious antivirus file is found.
 
 -------
 
@@ -22,11 +22,11 @@ Using the **Tkinter** library for the graphical user interface, the program allo
 
     Python 3.x
 
-    Tkinter — GUI framework
+    Tkinter            — GUI framework
 
-    hashlib — File hashing
+    hashlib            — File hashing
 
-    os — System file handling
+    os                 — System file handling
 
     tkinter.filedialog — File selection
 
@@ -50,4 +50,4 @@ Using the **Tkinter** library for the graphical user interface, the program allo
 
 **🎯 Purpose:**
 
-This project aims to enhance cybersecurity awareness by helping users verify the legitimacy of antivirus software installed on their computers. It’s especially useful for educational demonstrations, cybersecurity training, and personal computer security audits.
+This project aims to enhance **cybersecurity awareness** by helping users verify the legitimacy of antivirus software installed on their computers. It’s especially useful for educational demonstrations, cybersecurity training, and personal computer security audits.
