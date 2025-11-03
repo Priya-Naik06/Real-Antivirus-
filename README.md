@@ -1,6 +1,8 @@
-# Real-Antivirus-
+# Real-Antivirus- 
 Detecting Real Antivirus is a Python-based desktop application designed to verify the authenticity of antivirus software installed on a computer.
 Using the Tkinter library for the graphical user interface, the program allows users to easily check whether a detected antivirus application is genuine or potentially fake.
+
+---------
 
 🧩Key Features :
 
@@ -14,7 +16,7 @@ Using the Tkinter library for the graphical user interface, the program allows u
 
 ⚠️ Fake Antivirus Alert — Notifies the user if an unverified or suspicious antivirus file is found.
 
-
+-------
 
 ⚙️ Technologies Used :
 
@@ -30,6 +32,7 @@ tkinter.filedialog — File selection
 
 tkinter.messagebox — Alerts and information dialogs
 
+-----
 
 🚀 How It Works :
 
@@ -42,6 +45,8 @@ For each detected antivirus executable, it computes a SHA256 hash using hashlib.
 The hash is compared to a list/database of known genuine antivirus hashes.
 
 Results are displayed in the interface, indicating whether the antivirus is real or fake.
+
+------
 
 🎯 Purpose:
 
