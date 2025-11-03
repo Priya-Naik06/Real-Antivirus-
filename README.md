@@ -1,5 +1,5 @@
 # Real-Antivirus- 
-Detecting Real Antivirus is a Python-based desktop application designed to verify the authenticity of antivirus software installed on a computer.
+      Detecting Real Antivirus is a Python-based desktop application designed to verify the authenticity of antivirus software installed on a computer.
 Using the Tkinter library for the graphical user interface, the program allows users to easily check whether a detected antivirus application is genuine or potentially fake.
 
 ---------
@@ -20,34 +20,34 @@ Using the Tkinter library for the graphical user interface, the program allows u
 
 ⚙️ Technologies Used :
 
-Python 3.x
+    Python 3.x
 
-Tkinter — GUI framework
+    Tkinter — GUI framework
 
-hashlib — File hashing
+    hashlib — File hashing
 
-os — System file handling
+    os — System file handling
 
-tkinter.filedialog — File selection
+    tkinter.filedialog — File selection
 
-tkinter.messagebox — Alerts and information dialogs
+    tkinter.messagebox — Alerts and information dialogs
 
 -----
 
 🚀 How It Works :
 
-Launch the application via the Tkinter GUI.
+  1.Launch the application via the Tkinter GUI.
 
-The program scans common installation paths for antivirus software using the os module.
+  2.The program scans common installation paths for antivirus software using the os module.
 
-For each detected antivirus executable, it computes a SHA256 hash using hashlib.
+  3.For each detected antivirus executable, it computes a SHA256 hash using hashlib.
 
-The hash is compared to a list/database of known genuine antivirus hashes.
+  4.The hash is compared to a list/database of known genuine antivirus hashes.
 
-Results are displayed in the interface, indicating whether the antivirus is real or fake.
+  5.Results are displayed in the interface, indicating whether the antivirus is real or fake.
 
 ------
 
 🎯 Purpose:
 
-This project aims to enhance cybersecurity awareness by helping users verify the legitimacy of antivirus software installed on their computers. It’s especially useful for educational demonstrations, cybersecurity training, and personal computer security audits.
+     This project aims to enhance cybersecurity awareness by helping users verify the legitimacy of antivirus software installed on their computers. It’s especially useful for educational demonstrations, cybersecurity training, and personal computer security audits.
